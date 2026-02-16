@@ -13,7 +13,7 @@ const App = () => {
     }
     const heightInMeters=height/100;
     const bmi=(weight/(heightInMeters*heightInMeters)).
-    toFixed(1);
+    toFixed(2);
 
     let category="";
     if(bmi<18.5) category="Under Weight";
