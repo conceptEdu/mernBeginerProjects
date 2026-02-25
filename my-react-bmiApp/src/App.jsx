@@ -32,7 +32,7 @@ const App = () => {
         <input 
         type='number'
         id='height' 
-        placeholder='e.g. 165 cm'
+        placeholder='Shivansh Apna height Dalo'
         value={height}
         onChange={(e)=>setHeight(e.target.value)}
         />
