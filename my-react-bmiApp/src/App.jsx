@@ -11,7 +11,7 @@ const App = () => {
       setResult("Please enter both height and weight!")
     return;
     }
-    const heightInMeters=height/100;
+    const heightInMeters=(height*2.54)/100;
     const bmi=(weight/(heightInMeters*heightInMeters)).
     toFixed(2);
 
@@ -32,7 +32,7 @@ const App = () => {
         <input 
         type='number'
         id='height' 
-        placeholder='Shivansh Apna height Dalo'
+        placeholder='Height (in inch)'
         value={height}
         onChange={(e)=>setHeight(e.target.value)}
         />
