@@ -1,4 +1,4 @@
-import {useState} from 'react';
+jimport {useState} from 'react';
 import React from 'react';
 
 const App = () => {
@@ -28,11 +28,11 @@ const App = () => {
         <h1>BMI Calculator</h1>
         
         {/*Height */}
-        <label htmlFor='height'>Height (in cm)</label>
+        <label htmlFor='height'>Height (in inch)</label>
         <input 
         type='number'
         id='height' 
-        placeholder='Height (in inch)'
+        placeholder='e.g. 62 inch'
         value={height}
         onChange={(e)=>setHeight(e.target.value)}
         />
